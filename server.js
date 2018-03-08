@@ -8,7 +8,7 @@ app.get('/', function(req, res){
 });
 
 app.get('/status', function(req, res){
-    res.status(404).send('Not Foun');
+    res.status(200).send('Tada!');
 });
 
 app.listen(port, function(){
